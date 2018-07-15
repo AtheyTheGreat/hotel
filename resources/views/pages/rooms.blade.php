@@ -12,7 +12,7 @@
               @include('partials.roomslide')
 	  </aside>
 
-	@include('partials.room')
+	@include('partials.roomall')
 
 
 

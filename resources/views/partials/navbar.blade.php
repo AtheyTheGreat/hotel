@@ -18,9 +18,12 @@
         <div class="container">
             <div class="row">
                 <div class="col-xs-2">
-                    <div id="colorlib-logo"><a href="/">Awesome Maldives</a></div>
+                    <img src="images/logo.png" height="120px">
                 </div>
-                <div class="col-xs-10 text-right menu-1">
+                <div class="col-xs-2">
+                    <div id="colorlib-logo"><a href="homepage"><strong>Awesome Maldives</strong></a></div>
+                </div>
+                <div class="col-xs-8 text-right menu-1">
                     <ul>
                         <li><a href="homepage">Home</a></li>
                         <li><a href="rooms">Rooms</a></li>
