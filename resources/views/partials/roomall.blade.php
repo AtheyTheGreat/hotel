@@ -3,7 +3,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-4 room-wrap animate-box">
-                <a href="images/room-1.jpg" class="room image-popup-link" style="background-image: url(images/room-1.jpg);"></a>
+                <a href="images/rooms-2.jpg" class="room image-popup-link" style="background-image: url(images/rooms-2.jpg);"></a>
                 <div class="desc text-center">
                     <span class="rate-star"><i class="icon-star-full full"></i><i class="icon-star-full full"></i><i class="icon-star-full full"></i><i class="icon-star-full"></i><i class="icon-star-full"></i></span>
                     <h3><a href="rooms-suites.html">Single Suite</a></h3>
@@ -38,7 +38,7 @@
                 </div>
             </div>
             <div class="col-md-4 room-wrap animate-box">
-                <a href="images/room-2.jpg" class="room image-popup-link" style="background-image: url(images/room-2.jpg);"></a>
+                <a href="images/rooms-1.jpg" class="room image-popup-link" style="background-image: url(images/rooms-1.jpg);"></a>
                 <div class="desc text-center">
                     <span class="rate-star"><i class="icon-star-full full"></i><i class="icon-star-full full"></i><i class="icon-star-full full"></i><i class="icon-star-full full"></i><i class="icon-star-full"></i></span>
                     <h3><a href="rooms-suites.html">Double/Twin Room</a></h3>
@@ -73,7 +73,7 @@
                 </div>
             </div>
             <div class="col-md-4 room-wrap animate-box">
-                <a href="images/room-3.jpg" class="room image-popup-link" style="background-image: url(images/room-3.jpg);"></a>
+                <a href="images/rooms-3.jpg" class="room image-popup-link" style="background-image: url(images/rooms-3.jpg);"></a>
                 <div class="desc text-center">
                     <span class="rate-star"><i class="icon-star-full full"></i><i class="icon-star-full full"></i><i class="icon-star-full full"></i><i class="icon-star-full full"></i><i class="icon-star-full"></i></span>
                     <h3><a href="rooms-suites.html">Triple Room</a></h3>
@@ -112,7 +112,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-4 room-wrap animate-box">
-                <a href="images/room-1.jpg" class="room image-popup-link" style="background-image: url(images/room-1.jpg);"></a>
+                <a href="images/rooms-4.jpg" class="room image-popup-link" style="background-image: url(images/rooms-4.jpg);"></a>
                 <div class="desc text-center">
                     <span class="rate-star"><i class="icon-star-full full"></i><i class="icon-star-full full"></i><i class="icon-star-full full"></i><i class="icon-star-full"></i><i class="icon-star-full"></i></span>
                     <h3><a href="rooms-suites.html">Single Suite</a></h3>
@@ -147,7 +147,7 @@
                 </div>
             </div>
             <div class="col-md-4 room-wrap animate-box">
-                <a href="images/room-2.jpg" class="room image-popup-link" style="background-image: url(images/room-2.jpg);"></a>
+                <a href="images/rooms-5.jpg" class="room image-popup-link" style="background-image: url(images/rooms-5.jpg);"></a>
                 <div class="desc text-center">
                     <span class="rate-star"><i class="icon-star-full full"></i><i class="icon-star-full full"></i><i class="icon-star-full full"></i><i class="icon-star-full full"></i><i class="icon-star-full"></i></span>
                     <h3><a href="rooms-suites.html">Double/Twin Room</a></h3>
@@ -182,7 +182,7 @@
                 </div>
             </div>
             <div class="col-md-4 room-wrap animate-box">
-                <a href="images/room-3.jpg" class="room image-popup-link" style="background-image: url(images/room-3.jpg);"></a>
+                <a href="images/rooms-6.jpg" class="room image-popup-link" style="background-image: url(images/rooms-6.jpg);"></a>
                 <div class="desc text-center">
                     <span class="rate-star"><i class="icon-star-full full"></i><i class="icon-star-full full"></i><i class="icon-star-full full"></i><i class="icon-star-full full"></i><i class="icon-star-full"></i></span>
                     <h3><a href="rooms-suites.html">Triple Room</a></h3>

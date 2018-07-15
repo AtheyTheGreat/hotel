@@ -1,6 +1,6 @@
 <div class="flexslider">
     <ul class="slides">
-    <li style="background-image: url(images/img_bg_5.jpg);">
+    <li style="background-image: url(images/imgs_bg_4.jpg);">
         <div class="overlay"></div>
         <div class="container-fluid">
             <div class="row">
@@ -13,7 +13,7 @@
             </div>
         </div>
     </li>
-    <li style="background-image: url(images/img_bg_1.jpg);">
+    <li style="background-image: url(images/imgs_bg_5.jpg);">
         <div class="overlay"></div>
         <div class="container-fluid">
             <div class="row">
@@ -26,7 +26,7 @@
             </div>
         </div>
     </li>
-    <li style="background-image: url(images/img_bg_3.jpg);">
+    <li style="background-image: url(images/imgs_bg_1.jpg);">
         <div class="overlay"></div>
         <div class="container-fluids">
             <div class="row">
@@ -39,7 +39,7 @@
             </div>
         </div>
     </li>
-    <li style="background-image: url(images/img_bg_4.jpg);">
+    <li style="background-image: url(images/imgs_bg_3.jpg);">
         <div class="overlay"></div>
         <div class="container-fluid">
             <div class="row">
