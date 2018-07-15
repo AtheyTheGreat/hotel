@@ -22,12 +22,13 @@
                 </div>
                 <div class="col-xs-10 text-right menu-1">
                     <ul>
-                        <li><a href="/">Home</a></li>
+                        <li><a href="homepage">Home</a></li>
                         <li><a href="rooms">Rooms</a></li>
                         <li><a href="dining">Dining</a></li>
                         <li><a href="aminities">Aminities</a></li>
                         <li><a href="about">About</a></li>
                         <li><a href="contacts">Contact</a></li>
+                        <li><a href="bookings">Book Now</a></li>
                     </ul>
                 </div>
             </div>

@@ -68,7 +68,7 @@
                       </div>
                     </div>
                     <div class="col-md-2">
-                      <input type="submit" name="submit" id="submit" value="Book Now" class="btn btn-primary btn-block">
+                      <input type="submit" name="submit" id="submit" value="Book Now" href="bookings" class="btn btn-primary btn-block">
                     </div>
                   </div>
                 </form>

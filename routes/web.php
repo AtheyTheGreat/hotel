@@ -15,6 +15,9 @@ Route::get('/', function () {
     return view('pages.homepage');
 });
 
+Route::get('homepage', function () {
+    return view('pages.homepage');
+});
 Route::get('rooms', function () {
     return view('pages.rooms');
 });
@@ -48,4 +51,15 @@ Route::get('/contacts', [
 Route::post('/contacts', [
     'uses' => 'ContactMessageController@store',
     'as' => 'contacts.store'
+]);
+
+//bookingmessage
+
+Route::get('/bookings', [
+    'uses' => 'BookingMessageController@create'
+]);
+
+Route::post('/bookings', [
+    'uses' => 'BookingMessageController@store',
+    'as' => 'bookings.store'
 ]);
