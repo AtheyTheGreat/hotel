@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use Illuminate\Support\Facades\Mail;
 use App\Mail\BookingEmail;
 use Illuminate\Http\Request;
 
@@ -17,6 +18,12 @@ class BookingMessageController extends Controller
         $this->validate($request,[
             'firstname' => 'required',
             'lastname' => 'required',
+            'check_in' => 'required',
+            'check_out' => 'required',
+            'hotel'   => 'required',
+            'rooms' => 'required',
+            'adults' => 'required',
+            'child' => 'required',
             'email' => 'required|email',
             'message' => 'required'
         ]);

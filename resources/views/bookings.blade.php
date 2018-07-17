@@ -58,8 +58,101 @@
 						@if (Session::has('flash_message'))
                             <div class="alert alert-success">{{ Session::get('flash_message')}}</div>
 						@endif
-						<form method="post" action="{{ route('contacts.store')}}">
+						<form method="post" action="{{ route('bookings.store')}}">
 							{{ csrf_field() }}
+
+						<div class="row form-group">
+						<div class="col-md-6">
+							<label for="datepicker">Check-in:</label>
+							<div class="form-field">
+		                      <i class="icon icon-calendar2"></i>
+		                      <input type="text" name="check_in" id="datepicker" class="form-control date" placeholder="Check-in date">
+		                    </div>
+							@if ($errors->has('check_in'))
+							 <small class="form-text invalid-feedback">{{ $errors->first('check_in')}}</small>
+							 @endif
+						</div>
+
+						<div class="col-md-6">
+							<label for="datepicker">Check-out:</label>
+							<div class="form-field">
+		                      <i class="icon icon-calendar2"></i>
+		                      <input type="text" name="check_out" id="datepicker" class="form-control date" placeholder="Check-out date">
+		                    </div>
+							@if ($errors->has('check_out'))
+							 <small class="form-text invalid-feedback">{{ $errors->first('check_out')}}</small>
+							 @endif
+						</div>
+						</div>
+
+						<div class="row form-group">
+						<div class="col-md-6">
+							<label for="hotel">Hotel:</label>
+							<div class="form-field">
+  		                      <select name="hotel" id="hotel" class="form-control" placeholder="Select Hotel">
+                                <option value="placeholder"></option>
+								<option value="1">Awesome Suite</option>
+  		                        <option value="2">Awesome Comfort</option>
+  		                      </select>
+		                    </div>
+							@if ($errors->has('hotel'))
+							 <small class="form-text invalid-feedback">{{ $errors->first('hotel')}}</small>
+							 @endif
+						</div>
+
+						<div class="col-md-6">
+							<label for="datepicker">Rooms:</label>
+							<div class="form-field">
+  		                      <select name="rooms" id="rooms" class="form-control" placeholder="How Many">
+                                <option value="placeholder"></option>
+								<option value="1">1</option>
+  		                        <option value="2">2</option>
+								<option value="3">3</option>
+		                        <option value="4">4</option>
+		                        <option value="5">5+</option>
+  		                      </select>
+		                    </div>
+							@if ($errors->has('rooms'))
+							 <small class="form-text invalid-feedback">{{ $errors->first('rooms')}}</small>
+							 @endif
+						</div>
+						</div>
+
+						<div class="row form-group">
+						<div class="col-md-6">
+							<label for="hotel">Adults:</label>
+							<div class="form-field">
+  		                      <select name="adults" id="adults" class="form-control" placeholder="How Many">
+                                <option value="placeholder"></option>
+								<option value="1">1</option>
+  		                        <option value="2">2</option>
+								<option value="3">3</option>
+		                        <option value="4">4</option>
+		                        <option value="5">5+</option>
+  		                      </select>
+		                    </div>
+							@if ($errors->has('adults'))
+							 <small class="form-text invalid-feedback">{{ $errors->first('adults')}}</small>
+							 @endif
+						</div>
+
+						<div class="col-md-6">
+							<label for="datepicker">child:</label>
+							<div class="form-field">
+  		                      <select name="child" id="child" class="form-control" placeholder="How Many">
+                                <option value="placeholder"></option>
+								<option value="1">1</option>
+  		                        <option value="2">2</option>
+								<option value="3">3</option>
+		                        <option value="4">4</option>
+		                        <option value="5">5+</option>
+  		                      </select>
+		                    </div>
+							@if ($errors->has('child'))
+							 <small class="form-text invalid-feedback">{{ $errors->first('child')}}</small>
+							 @endif
+						</div>
+						</div>
 
 						<div class="row form-group">
 						<div class="col-md-6">
