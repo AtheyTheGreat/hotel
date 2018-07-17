@@ -2,7 +2,7 @@
 
 namespace App\Http\Controllers;
 
-use Mail;
+use Illuminate\Support\Facades\Mail;
 use Illuminate\Http\Request;
 use App\Mail\ContactEmail;
 
@@ -22,8 +22,7 @@ class ContactMessageController extends Controller
             'message' => 'required'
         ]);
 
-
-        Mail::to(env('SEND_EMAIL_FROM'))->send(new ContactEmail($request));
+        Mail::to(env('MAIL_TO_ADDRESS'))->send(new ContactEmail($request->all()));
         return redirect()->back()->with('flash_message','Thank you for contacting!');
     }
 }

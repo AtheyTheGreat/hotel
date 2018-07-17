@@ -28,6 +28,6 @@ class BookingEmail extends Mailable
      */
     public function build()
     {
-        return $this->view('emails.bookings-message', ['booking' => $this->booking]);
+        return $this->subject('New Booking From Website')->view('emails.bookings-message', ['booking' => $this->booking]);
     }
 }
