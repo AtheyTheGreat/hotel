@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Mail\BookingEmail;
 use Illuminate\Http\Request;
 
 class BookingMessageController extends Controller
@@ -21,7 +22,7 @@ class BookingMessageController extends Controller
         ]);
 
 
-        Mail::to(env('SEND_EMAIL_FROM'))->send(new BookingEmail($request));
+        Mail::to(env('MAIL_TO_ADDRESS'))->send(new BookingEmail($request));
         return redirect()->back()->with('flash_message','Thank you for your Reservation we will get back to you.');
     }
 }
