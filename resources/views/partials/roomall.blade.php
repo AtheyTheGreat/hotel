@@ -73,7 +73,7 @@
                 </div>
             </div>
             <div class="col-md-4 room-wrap animate-box">
-                <a href="images/rooms-3.jpg" class="room image-popup-link" style="background-image: url(images/rooms-3.jpg);"></a>
+                <a href="images/rooms-3.jpg" class="room image-popup-link" style="background-image: url(images/roomss-3.jpg);"></a>
                 <div class="desc text-center">
                     <span class="rate-star"><i class="icon-star-full full"></i><i class="icon-star-full full"></i><i class="icon-star-full full"></i><i class="icon-star-full full"></i><i class="icon-star-full"></i></span>
                     <h3><a href="rooms-suites.html">Triple Room</a></h3>
