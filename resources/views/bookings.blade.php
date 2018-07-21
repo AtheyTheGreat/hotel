@@ -90,9 +90,7 @@
 							<label for="hotel">Hotel:</label>
 							<div class="form-field">
   		                      <select name="hotel" id="hotel" class="form-control" placeholder="Select Hotel">
-                                <option value="placeholder"></option>
 								<option value="1">Awesome Suite</option>
-  		                        <option value="2">Awesome Comfort</option>
   		                      </select>
 		                    </div>
 							@if ($errors->has('hotel'))
@@ -108,8 +106,6 @@
 								<option value="1">1</option>
   		                        <option value="2">2</option>
 								<option value="3">3</option>
-		                        <option value="4">4</option>
-		                        <option value="5">5+</option>
   		                      </select>
 		                    </div>
 							@if ($errors->has('rooms'))
@@ -140,7 +136,7 @@
 							<label for="datepicker">child:</label>
 							<div class="form-field">
   		                      <select name="child" id="child" class="form-control" placeholder="How Many">
-                                <option value="placeholder"></option>
+                                <option value="0">-</option>
 								<option value="1">1</option>
   		                        <option value="2">2</option>
 								<option value="3">3</option>
