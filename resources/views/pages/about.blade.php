@@ -32,8 +32,14 @@
 				<div class="row">
 					<div class="col-md-6">
 						<div class="about animate-box">
-							<h2>Welcome to our Hotel</h2>
-							<p></p>
+							<h2>Welcome to our Hotel</h2><br>
+							<p>Located in Hulhumale, 5.6 km from Male City, Awesome Suite features air-conditioned rooms with free WiFi.
+                                <br>
+                              All rooms are fitted with a flat-screen TV. You will find a kettle in the room. The rooms include a private bathroom fitted with a shower. Extras include free toiletries and a hairdryer.
+                                  <br>
+                              The nearest airport is Male Airport, 4 km from Awesome Suite.
+                               <br>
+                             We speak your language!</p>
 						</div>
 					</div>
 					<div class="col-md-6">
