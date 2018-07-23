@@ -1,6 +1,6 @@
 <div class="flexslider">
     <ul class="slides">
-    <li style="background-image: url(images/img_bg_5.jpg);">
+    <li style="background-image: url(images/imgs_bg_4.jpg);">
         <div class="overlay"></div>
         <div class="container-fluid">
             <div class="row">

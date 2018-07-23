@@ -11,7 +11,7 @@
 		<aside id="colorlib-hero">
 			<div class="flexslider">
 				<ul class="slides">
-			   	<li style="background-image: url(images/img_bg_5.jpg);">
+			   	<li style="background-image: url(images/imgs_bg_2.jpg);">
 			   		<div class="overlay"></div>
 			   		<div class="container-fluid">
 			   			<div class="row">
@@ -198,11 +198,6 @@
 				</div>
 			</div>
 		</div>
-
-		<div id="map" class="colorlib-map"></div>
-
-
-
 	</div>
 
 
